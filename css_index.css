@@ -1,7 +1,34 @@
+/*
 body {
     background-color: honeydew;
 }
-h1 {
+*/
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background: black;
+    border: 4px solid brown;
+    color: white;
+    height: 100px;
+    flex: auto;
+    align-self: center;
+    align-items: flex-start;
+    align-content: center;
+  }
+  
+  /* only div.two is selected here */
+  .flex-container .two {
+    flex: 2 1 0%;
+  }
+
+
+
+/*
+  h1 {
     color: black;
 }
 p {
@@ -13,3 +40,4 @@ p {
 #skills {
     color: darkred;
 }
+*/
